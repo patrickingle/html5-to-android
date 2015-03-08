@@ -17,3 +17,7 @@ Replace the files under assets/www with your html5 web root files.
 
 # Creating a Signed APK
 See http://www.techotopia.com/index.php/Generating_a_Signed_Release_APK_File_in_Android_Studio
+
+# Additional tips for creating webview application
+http://developer.android.com/guide/webapps/webview.html
+
