@@ -18,6 +18,13 @@ Replace the files under assets/www with your html5 web root files.
 # Creating a Signed APK
 See http://www.techotopia.com/index.php/Generating_a_Signed_Release_APK_File_in_Android_Studio
 
+## KEYSTORE with Private Key
+The keystore with the private key are included. DO NOT USE FOR PRODUCTION!
+
+Password for the keystore and alias: password
+
 # Additional tips for creating webview application
 http://developer.android.com/guide/webapps/webview.html
 
+# Screenshot
+![HTML5 to Android Screenshot](screenshot.jpg)
