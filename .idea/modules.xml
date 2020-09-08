@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HTML5-to-Android.iml" filepath="$PROJECT_DIR$/HTML5-to-Android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HTML5_to_Android.iml" filepath="$PROJECT_DIR$/.idea/modules/HTML5_to_Android.iml" group="HTML5_to_Android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="HTML5 to Android/app" />
     </modules>
   </component>
 </project>
-

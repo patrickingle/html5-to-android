@@ -1,0 +1,109 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.indent {
+  text-indent: 1%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto9;
+}
+.center-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.completed {
+  font-family: Copperplate,Copperplate Gothic Light,fantasy;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+.heading-font {
+  font-family: Brush Script MT,cursive;
+  font-size: 49px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 53.9px;
+}
+.noHover{
+  pointer-events: none;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+.center-vertical {
+  padding-top: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Remove default bullets */
+ul, #documentType {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#documentType {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
